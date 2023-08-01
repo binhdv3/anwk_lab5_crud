@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:gravity="center"
+    >
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="name"
+        />
+    <EditText
+        android:id="@+id/ed_price"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="price"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/ed_des"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="description"
+        />
+    <Button
+        android:id="@+id/dia_btn_add"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"/>
+</LinearLayout>
